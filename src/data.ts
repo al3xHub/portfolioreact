@@ -29,11 +29,11 @@ export const projects: Project[] = [
     id: 'compound-interest',
     title: 'Compound Interest Calculator',
     description: 'Calculate the total value of a stock depending on multiple factors',
-    image: '/src/public/images/ci1.png',
+    image: '/images/ci1.png',
     images: [
-      '/src/public/images/ci1.png',
-      '/src/public/images/ci2.png',
-      '/src/public/images/ci3.png'
+      '/images/ci1.png',
+      '/images/ci2.png',
+      '/images/ci3.png'
     ],
     tags: ['Python', 'Data Analysis', 'Flask'],
     longDescription: 'This web service provide data about growth investing money with interest, initial deposit, num of years and contributions over the year. It has been made with Python + Flask framework and also using libraries for data analisis and visualization like Pandas and Matplotlib.',
@@ -50,10 +50,10 @@ export const projects: Project[] = [
     id: 'dollar-average',
     title: 'Dollar Cost Average Calculator',
     description: 'Implement dollar cost average strategy to invest a sum of money despite the stock price',
-    image: '/src/public/images/dca1.png',
+    image: '/images/dca1.png',
     images: [
-      '/src/public/images/dca1.png',
-      '/src/public/images/dca2.png'
+      '/images/dca1.png',
+      '/images/dca2.png'
     ],
     tags: ['Python', 'Data Analysis', 'Flask'],
     longDescription: 'This project allows the value of a portfolio based on periodic investments with shares. It is connected with the Yahoo finance API and the data it is visualised using Matplotlib library.',
@@ -70,13 +70,13 @@ export const projects: Project[] = [
     id: 'task-react',
     title: 'Task App',
     description: 'Basic task web application with back-end API',
-    image: '/src/public/images/task1.png',
+    image: '/images/task1.png',
     images: [
-      '/src/public/images/task1.png',
-      '/src/public/images/task2.png',
-      '/src/public/images/task3.png',
-      '/src/public/images/task4.png',
-      '/src/public/images/task5.png'
+      '/images/task1.png',
+      '/images/task2.png',
+      '/images/task3.png',
+      '/images/task4.png',
+      '/images/task5.png'
     ],
     tags: ['React', 'REST API', 'Django'],
     longDescription: 'Storage personal notes and manage them using a modern interface connected with a API. The back-end bring you a documented API to read and see how to use it.',
@@ -92,12 +92,12 @@ export const projects: Project[] = [
     id: 'harry-mongodb',
     title: 'Harry Poter Database noSQL',
     description: 'Returns Harry Potter characters data with functional filters',
-    image: '/src/public/images/harry1.png',
+    image: '/images/harry1.png',
     images: [
-      '/src/public/images/harry1.png',
-      '/src/public/images/harry2.png',
-      '/src/public/images/harry3.png',
-      '/src/public/images/harry4.png'
+      '/images/harry1.png',
+      '/images/harry2.png',
+      '/images/harry3.png',
+      '/images/harry4.png'
     ],
     tags: ['MongoDB', 'noSQL', 'Node.js'],
     longDescription: 'This is a typical CRUD example project, where you can manage data from Mongo Database, visualise and filter according to some characteristics.',
@@ -113,13 +113,13 @@ export const projects: Project[] = [
     id: 'king-list',
     title: 'Three king list',
     description: 'This is the website that the three king uses to organise what children ask to them every year.',
-    image: '/src/public/images/king1.png',
+    image: '/images/king1.png',
     images: [
-      '/src/public/images/king1.png',
-      '/src/public/images/king2.png',
-      '/src/public/images/king3.png',
-      '/src/public/images/king4.png',
-      '/src/public/images/king5.png'
+      '/images/king1.png',
+      '/images/king2.png',
+      '/images/king3.png',
+      '/images/king4.png',
+      '/images/king5.png'
     ],
     tags: ['PHP', 'MySQL', 'HTML & CSS', 'Bootstraps'],
     longDescription: 'CRUD where you can manage data from different tables. Some of them have relationship between them (1:1, 1:N, N:M). Simulate a children gift list for the typical characters Christmasy "The Three kings".',
