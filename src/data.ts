@@ -5,9 +5,9 @@ export const projects: Project[] = [
     id: 'password-manager',
     title: 'Password Manager',
     description: 'Web service where you can store safety data about personal passwords',
-    image: '../src/public/images/pm1.png',
+    image: '/src/public/images/pm1.png',
     images: [
-      '../src/public/images/pm1.png',
+      '/src/public/images/pm1.png',
       '/src/public/images/pm5.png',
       '/src/public/images/pm6.png',
       '/src/public/images/pm8.png',
