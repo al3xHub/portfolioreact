@@ -39,14 +39,14 @@ export default function Header() {
 
           {/* Menú móvil */}
           {isMenuOpen && (
-            <div className="md:hidden mt-4 flex space-x-4">
-              <a href="#projects" className="text-gray-600 hover:text-gray-900 transition-colors py-2">
+            <div className="md:hidden mt-4 flex flex-col items-start space-y-1">
+              <a href="#projects" className="text-gray-600 hover:text-gray-900 transition-colors py-1">
                 Projects
               </a>
-              <a href="#experience" className="text-gray-600 hover:text-gray-900 transition-colors py-2">
+              <a href="#experience" className="text-gray-600 hover:text-gray-900 transition-colors py-1">
                 Experience
               </a>
-              <a href="#contact" className="text-gray-600 hover:text-gray-900 transition-colors py-2">
+              <a href="#contact" className="text-gray-600 hover:text-gray-900 transition-colors py-1">
                 Contact
               </a>
             </div>
