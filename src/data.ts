@@ -135,7 +135,7 @@ export const projects: Project[] = [
 export const experiences: Experience[] = [
   {
     company: 'Grupo IHP',
-    position: 'Intership Junior Developer',
+    position: 'Internship Junior Developer',
     period: 'April 2024 - June 2024',
     description: 'We developed two projects for the company itself. The first project was a WYSIWYG editor for administrative staff giving them facilities to manage posts on the official landing page. The second project was a CRUD to manage databases for the administrative staff.'
   }
