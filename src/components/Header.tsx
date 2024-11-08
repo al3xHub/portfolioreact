@@ -1,7 +1,11 @@
 import React from 'react';
+import { useState } from 'react';
 import { Menu, Github, Linkedin, Mail } from 'lucide-react';
 
 export default function Header() {
+
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
   return (
     <header className="fixed top-0 left-0 right-0 bg-white/80 backdrop-blur-sm z-50">
       <nav className="container mx-auto px-6 py-4">
@@ -9,7 +13,7 @@ export default function Header() {
           <a href='/' className="text-xl font-bold text-gray-800">
             Al3x.dev
           </a>
-          
+
           <div className="hidden md:flex items-center space-x-8">
             <a href="#projects" className="text-gray-600 hover:text-gray-900 transition-colors">
               Projects
@@ -32,10 +36,26 @@ export default function Header() {
               </a>
             </div>
           </div>
-          
-          <button className="md:hidden text-gray-600">
+
+          {/* Menú móvil */}
+          {isMenuOpen && (
+            <div className="md:hidden mt-4 flex space-x-4">
+              <a href="#projects" className="text-gray-600 hover:text-gray-900 transition-colors py-2">
+                Projects
+              </a>
+              <a href="#experience" className="text-gray-600 hover:text-gray-900 transition-colors py-2">
+                Experience
+              </a>
+              <a href="#contact" className="text-gray-600 hover:text-gray-900 transition-colors py-2">
+                Contact
+              </a>
+            </div>
+          )}
+          <button className="md:hidden text-gray-600"
+            onClick={() => setIsMenuOpen(!isMenuOpen)}>
             <Menu size={24} />
           </button>
+
         </div>
       </nav>
     </header>
