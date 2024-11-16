@@ -2,6 +2,31 @@ import { Experience, Project } from './types';
 
 export const projects: Project[] = [
   {
+    id: 'nova-project',
+    title: 'Marketing website with Blog',
+    description: 'This project is a Django REST API designed to manage and serve posts for a modern landing page built with React and TypeScript.',
+    image: '/images/nova1.png',
+    images: [
+      '/images/nova1.png',
+      '/images/nova2.png',
+      '/images/nova3.png',
+      '/images/nova4.png',
+      '/images/nova5.png',
+      '/images/nova6.png',
+    ],
+    tags: ['Django REST', 'React', 'TypeScript', 'HTML', 'CSS', 'Tailwind CSS', 'POSTGRESQL'],
+    longDescription: 'This project is a Django REST API designed to manage and serve posts for a modern landing page built with React and TypeScript. From the Django admin panel, administrators can easily create and edit posts using a user-friendly WYSIWYG (What You See Is What You Get) editor, making content creation intuitive and efficient. The frontend, deployed on Railway, interacts with this backend to fetch and display the latest posts dynamically, offering users a responsive and engaging experience. Key features include secure data handling, user authentication, and robust endpoint management for efficient communication between the backend and the landing page.',
+    features: [
+      'API access',
+      'WYWYG Editor',
+      'Cloud service deployment',
+      'Admin Panel'
+    ],
+    technologies: ['Python','Django REST', 'POSTGRESQL', 'React', 'TypeScript', 'Tailwind CSS', 'HTML', 'CSS', 'Railway cloud'],
+    demoUrl: 'https://nova-project-production-e6e4.up.railway.app/',
+    githubUrl: 'https://github.com/al3xHub/nova-project'
+  },
+  {
     id: 'password-manager',
     title: 'Password Manager',
     description: 'Web service where you can store safety data about personal passwords',
