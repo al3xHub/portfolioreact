@@ -154,6 +154,28 @@ export const projects: Project[] = [
     ],
     technologies: ['PHP', 'MySQL', 'HTML & CSS', 'Bootstraps'],
     githubUrl: 'https://github.com/al3xHub/CRUD-PHP'
+  },
+  {
+    id: 'shop-java',
+    title: 'Shopping List Java',
+    description: 'In this website you can storage data from your shopping purchases.',
+    image: '/images/shop2.png',
+    images: [
+      '/images/shop1.png',
+      '/images/shop2.png',
+      '/images/shop3.png',
+      '/images/shop4.png',
+      '/images/shop5.png'
+    ],
+    tags: ['Java EE', 'MySQL', 'HTML & CSS', 'Bootstraps', 'Ubuntu Server', 'Tomcat9'],
+    longDescription: 'This website storage data such amount of money spended in a shop in specific. Also you can review the total spending indicating a month in specific to review it.',
+    features: [
+      'Relational Database',
+      'Web Application',
+      'Server Deployment with Ubuntu',
+    ],
+    technologies: ['Java EE', 'MySQL', 'HTML & CSS', 'Bootstraps', 'Ubuntu Server', 'Tomcat9'],
+    githubUrl: 'https://github.com/al3xHub/PracticaDAWTema4'
   }
 ];
 
