@@ -2,6 +2,25 @@ import { Experience, Project } from './types';
 
 export const projects: Project[] = [
   {
+    id: 'hashtag-generator',
+    title: 'Hashtag Generator AI',
+    description: 'Choose an image and as a result you will provided related hashtags from the image.',
+    image: '/images/hash3.png',
+    images: [
+      '/images/hash1.png',
+      '/images/hash2.png',
+      '/images/hash3.png',
+    ],
+    tags: ['Flask', 'OpenAI', 'HTML & CSS', 'Python', 'JavaScript'],
+    longDescription: 'Connected to the OpenAI API, which analyzes the image, describes it, and generates relevant and creative hashtags.As a result, accurate hashtags to boost the visibility of your social media posts.',
+    features: [
+      'Artificial Inteligence',
+      'Web Application',
+      'OpenAI API'
+    ],
+    technologies: ['Flask', 'OpenAI', 'HTML & CSS', 'Python', 'JavaScript'],
+  },
+  {
     id: 'nova-project',
     title: 'Marketing website with Blog',
     description: 'This project is a Django REST API designed to manage and serve posts for a modern landing page built with React and TypeScript.',
