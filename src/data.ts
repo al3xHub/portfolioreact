@@ -2,6 +2,30 @@ import { Experience, Project } from './types';
 
 export const projects: Project[] = [
   {
+    id: 'Pizzeria AI Chat Assistance',
+    title: 'Pizzeria with AI Chat Assistance',
+    description: 'Landing page simulating a Pizzeria Restaurant with a customer chat AI assistance.',
+    image: '/images/napoli3.png',
+    images: [
+      '/images/napoli1.png',
+      '/images/napoli2.png',
+      '/images/napoli3.png',
+      '/images/napoli4.png',
+    ],
+    tags: ['React', 'OpenAI', 'AI Chat Assistance', 'TypeScript', 'Tailwind', 'HTML & CSS'],
+    longDescription: 'Connected to the OpenAI API, this website contain a Chat AI assistance trained to give related answers about the website services and products. The front-end has been created with React TypeScript and Tailwind for the design.',
+    features: [
+      'Artificial Inteligence',
+      'Web Application',
+      'OpenAI API',
+      'AI Chat Assistance',
+      'Automation'
+    ],
+    technologies: ['React', 'OpenAI', 'AI Chat Assistance', 'TypeScript', 'Tailwind', 'HTML & CSS'],
+    demoUrl: 'https://napoli-pizzeria.vercel.app/',
+    githubUrl: 'https://github.com/al3xHub/napoli-pizzeria'
+  },
+  {
     id: 'hashtag-generator',
     title: 'Hashtag Generator AI',
     description: 'Choose an image and as a result you will provided related hashtags from the image.',
